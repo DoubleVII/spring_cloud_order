@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/order.iml" filepath="$PROJECT_DIR$/order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orderclient/orderclient.iml" filepath="$PROJECT_DIR$/orderclient/orderclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ordercommon/ordercommon.iml" filepath="$PROJECT_DIR$/ordercommon/ordercommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orderserver/orderserver.iml" filepath="$PROJECT_DIR$/orderserver/orderserver.iml" />
+    </modules>
+  </component>
+</project>
