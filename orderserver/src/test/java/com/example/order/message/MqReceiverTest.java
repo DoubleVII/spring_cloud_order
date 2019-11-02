@@ -22,8 +22,14 @@ class MqReceiverTest {
      * 发送MQ消息测试
      */
     @Test
-    public void send(){
+    void send(){
         amqpTemplate.convertAndSend("myQueue", "now: " + new Date());
     }
+
+    @Test
+    void sendOrder(){
+        amqpTemplate.convertAndSend("myOrder", "computer", "now: " + new Date());
+    }
+
 
 }
